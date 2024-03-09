@@ -1,39 +1,141 @@
-*{
-    margin:0px;
+* {
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-1{
-    height:36px;
-    width:vw;
-    padding:0px 38px 0px 36px;
+.nav-1 {
+    height: 36px;
+    width: vw;
+    padding: 0px 38px 0px 36px;
     display: flex;
-    
+    align-items: center;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
 }
-.nav-logo{
-    height:24px;
+
+.nav-1-logo {
+    height: 24px;
     width: 24px;
-    padding: 6px 12px;
-    
+    padding: 0px 12px;
+
 }
-.logo{
-    position:relative;
+
+.jordon_logo {
+    position: relative;
     background-image: url(jordan.png);
     background-size: cover;
-    height:24px;
+    height: 24px;
     width: 24px;
 }
-.space{
-    width: 1050px;
-}
 
-.text{
+.text-1 {
     position: relative;
-    justify-content: flex-end; 
+    align-items: center;
+    font-size: 12px;
+    font-weight: 549;
 }
 
-a{
+a.nav-1-text {
     text-decoration: none;
-    color:solid black ;
+    color: black;
+    padding: 0px 4px
+}
+
+a:hover {
+    color: gray;
+}
+
+.nav-2 {
+    height: 64px;
+    width: vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 36px 0px 36px;
+}
+
+.nav-2-logo {
+    padding: 0px 12px;
+    margin-right: 180px;
+}
+
+.nike_logo {
+    height: 25px;
+    width: 59px;
+    background-image: url(nike_black.png);
+    background-size: cover;
+
+}
+
+.text-2 {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.742);
+
+}
+
+a.nav-2-text {
+    text-decoration: none;
+    color: black;
+    padding: 0px 12px;
+}
+
+a.nav-2-text:hover {
+    text-decoration: underline;
+
+}
+
+
+
+.nav-2-icon {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar {
+    height: 40px;
+    width: 160px;
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 90px;
+    color: grey;
+    margin-right: 12px;
+}
+
+.search-input {
+    margin-left: 15px;
+    width: 100%;
+    background-color: #F5F5F5;
+    border-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+::placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.heart {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.742);
+    margin: 0px 14px;
+}
+
+.shop {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.742);
 }
