@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,12 +42,14 @@
 a.nav-1-text {
     text-decoration: none;
     color: black;
-    padding: 0px 4px
+    padding: 0px 4px;
 }
 
 a:hover {
     color: gray;
 }
+
+
 
 .nav-2 {
     height: 64px;
@@ -55,6 +58,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0px 36px 0px 36px;
+    
 }
 
 .nav-2-logo {
@@ -84,10 +88,7 @@ a.nav-2-text {
 
 a.nav-2-text:hover {
     text-decoration: underline;
-
 }
-
-
 
 .nav-2-icon {
     display: flex;
@@ -96,7 +97,7 @@ a.nav-2-text:hover {
 
 .searchbar {
     height: 40px;
-    width: 160px;
+    width: 180px;
     display: flex;
     padding: 0px 10px;
     align-items: center;
@@ -104,6 +105,23 @@ a.nav-2-text:hover {
     border-radius: 90px;
     color: grey;
     margin-right: 12px;
+}
+
+.search-icon{
+    color: #0000009d;
+    font-size: 20px;
+    
+}
+
+.search-icon:hover{
+    border-radius: 44%;
+    background-color: rgba(237, 237, 237, 0.918);
+    padding: 7px 9px;
+    margin-left: -8px;
+}
+
+input[type=text]:focus {
+    outline:none;
 }
 
 .search-input {
@@ -114,6 +132,7 @@ a.nav-2-text:hover {
     font-size: 1rem;
     font-weight: bold;
 }
+
 
 
 ::placeholder {
