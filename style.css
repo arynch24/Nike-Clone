@@ -263,13 +263,19 @@ input[type=text]:focus {
     height: 950px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.gearup {
+.gearup-img {
     margin-top: 40px;
     width: 1327px;
-    height: 950px;
+    height: 700px;
     background-image: url(gearup.png);
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
+}
+
+.box-3-text {
+    margin-top: -15px;
+    text-align: center;
 }
