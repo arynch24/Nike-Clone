@@ -13,7 +13,6 @@
     display: flex;
     align-items: center;
     background-color: #F5F5F5;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -58,7 +57,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 0px 36px 0px 36px;
-    
+
 }
 
 .nav-2-logo {
@@ -107,13 +106,13 @@ a.nav-2-text:hover {
     margin-right: 12px;
 }
 
-.search-icon{
+.search-icon {
     color: #0000009d;
     font-size: 20px;
-    
+
 }
 
-.search-icon:hover{
+.search-icon:hover {
     border-radius: 44%;
     background-color: rgba(237, 237, 237, 0.918);
     padding: 7px 9px;
@@ -121,7 +120,7 @@ a.nav-2-text:hover {
 }
 
 input[type=text]:focus {
-    outline:none;
+    outline: none;
 }
 
 .search-input {
@@ -157,4 +156,120 @@ input[type=text]:focus {
     align-items: center;
     justify-content: center;
     color: rgba(0, 0, 0, 0.742);
+}
+
+.nav-3 {
+    height: 70px;
+    width: vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    text-align: center;
+    line-height: 20px;
+}
+
+.nav-3_link {
+    font-size: 12px;
+    text-decoration: underline;
+    color: black;
+}
+
+.box-1 {
+    width: vw;
+    height: 461px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.bubble {
+    width: 1327px;
+    height: 461px;
+    background-image: url(bubble.png);
+    background-size: cover;
+}
+
+.box-2,
+.box-3 {
+    width: vw;
+    height: 825px;
+    padding: 0px 0px 30px;
+    margin-bottom: 45px;
+
+}
+
+.box-heading,
+.featured-cards {
+
+    width: vw;
+    margin-bottom: 12px;
+    padding: 2px 48px 0px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.featured {
+    height: 61px;
+}
+
+.featured-cards {
+    height: 752px;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    height: 722px;
+    width: 435px;
+    background-size: cover;
+    display: flex;
+    color: #111;
+    align-items: end;
+}
+
+.card-link {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card-link:hover {
+    color: gray;
+
+}
+
+.card-1 {
+    background-image: url(1.png);
+}
+
+.card-2 {
+    background-image: url(2.png);
+}
+
+.card-3 {
+    background-image: url(3.png);
+}
+
+.gearup-box {
+    width: vw;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+}
+
+.gearup {
+    margin-top: 40px;
+    width: 1327px;
+    height: 950px;
+    background-image: url(gearup.png);
+    background-size:contain;
+    background-repeat: no-repeat;
 }
