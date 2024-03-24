@@ -25,7 +25,7 @@
 
 .jordon_logo {
     position: relative;
-    background-image: url(jordan.png);
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256243/nike/jordan_b5btm5.png);
     background-size: cover;
     height: 24px;
     width: 24px;
@@ -68,7 +68,7 @@ a:hover {
 .nike_logo {
     height: 25px;
     width: 59px;
-    background-image: url(nike_black.png);
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256241/nike/nike_black_hil1pf.png);
     background-size: cover;
 
 }
@@ -83,7 +83,7 @@ a.nav-2-text {
     text-decoration: none;
     color: black;
     padding: 0px 12px;
-    
+
 }
 
 a.nav-2-text:hover {
@@ -187,7 +187,7 @@ input[type=text]:focus {
 .bubble {
     width: 1327px;
     height: 461px;
-    background-image: url(bubble.png);
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256246/nike/bubble_pjkcsh.png);
     background-size: cover;
 }
 
@@ -221,7 +221,6 @@ input[type=text]:focus {
     gap: 8px;
     font-size: 14px;
     color: black;
-    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -237,8 +236,11 @@ input[type=text]:focus {
 }
 
 .card-link {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    color:black;
 }
 
 .card-link:hover {
@@ -247,60 +249,79 @@ input[type=text]:focus {
 }
 
 .card-1 {
-    background-image: url(1.png);
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256243/nike/1_irjswy.png);
 }
 
 .card-2 {
-    background-image: url(2.png);
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256243/nike/2_tsulqc.png);
 }
 
 .card-3 {
-    background-image: url(3.png);
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256243/nike/3_lhr2dt.png);
 }
 
-
-.box-3{
-    height:1010px;
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8 {
     width: vw;
+    margin-bottom: 70px;
+    
 }
-.gearup-box ,.trending-box{
+
+.box-3 {
+    height: 1010px;
+}
+
+.gearup-box,
+.trending-box,
+.dontmiss-box,
+.shoes-box,
+.sports-box,
+.mb-box {
     width: vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.trending-box{
-    height:720px;
+.trending-box {
+    height: 720px;
 }
 
 .gearup-box {
     height: 950px;
 }
 
+.dontmiss-box {
+    height: 690px;
+}
+
 .gearup-img {
     margin-top: 24px;
     width: 1327px;
     height: 690px;
-    background-image: url(gearup.png);
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256246/nike/gearup1_f9ruiy.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.box-3-text,.box-4-text {
+.box-text {
     margin-top: 44px;
-    text-align: center; 
+    text-align: center;
 }
 
-h1{
+h1 {
     font-size: 70px;
     font-family: "Anton", sans-serif;
     letter-spacing: 5px;
-    font-weight:600;
-    margin:-8px 0px 15px;
+    font-weight: 600;
+    margin: -8px 0px 15px;
 }
 
-button{
+button {
     background-color: black;
     color: white;
     border-radius: 30px;
@@ -308,16 +329,176 @@ button{
     font-weight: bold;
     padding: 10px 18px;
     margin-top: 24px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: gray;
 }
 
 
-.box-4{
-    height:780px;
+.box-4 {
+    height: 780px;
 }
-.trending-img{
-    height:460px;
-    background-image: url(trending.png);
-    width:1323px;
+
+.trending-img {
+    height: 460px;
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256249/nike/trending_rqruqj.png);
+    width: 1323px;
     background-size: contain;
     margin-top: 24px;
+}
+
+.box-5 {
+    height: 1010px;
+}
+
+.dontmiss-video {
+    height: 690px;
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+
+}
+
+video {
+    top: 0;
+    left: 0;
+    width: 1323px;
+    height: 690px;
+}
+
+.box-6 {
+    height: 400px;
+}
+
+.shoes-box {
+    height: 340px;
+    width: vw;
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.s {
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    color: gray;
+}
+
+.s {
+    height: 340px;
+    width: 300px;
+}
+
+.s1 {
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256243/nike/s1_m8zubm.png);
+}
+
+.s2 {
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256245/nike/s2_fwmnnu.png);
+}
+
+.s3 {
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256248/nike/s3_kwo5x0.png);
+}
+
+.s4 {
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256246/nike/s4_gzdiwq.png);
+}
+
+.s_ {
+    height: 340px;
+    width: 22.24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ss {
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256247/nike/ss_mhclpt.png);
+}
+
+.box-7 {
+    height: 540px;
+}
+
+.sports-box {
+    width: vw;
+    height: 438.5px;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    margin-top:30px;
+}
+
+.sp {
+    height: 427.5px;
+    width: 435.75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+
+.sp1 {
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256247/nike/sp1_kf5kmf.png);
+}
+
+.sp2 {
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256247/nike/sp2_zhwkrf.png);
+}
+
+.sp3 {
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256248/nike/sp3_q1weyv.png);
+}
+
+h3,h4{
+    font-weight: normal;
+}
+h3{
+    margin:-100px 0px 14px 0px;
+}
+h4{
+    margin-bottom:35px;
+}
+
+.box-8{
+    height:585px;
+}
+.mb-box{
+    height:545px;
+    width:vw;
+    gap:12px;
+    margin-top: 28px;
+}
+.mb{
+    height:545px;
+    width:436px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+.mb1{
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256245/nike/m1_xdtfiz.png);
+}
+.mb2{
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256245/nike/m2_zyg1lo.png);
+}
+.mb3{
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256246/nike/m3_yszhmk.png);
+}
+
+button.mb-button{
+    margin:0px 0px 47px 45px;
+    color:black;
+    background-color: white;
+}
+
+
+button.mb-button:hover{
+    background-color: lightgrey;
 }
