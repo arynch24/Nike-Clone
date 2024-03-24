@@ -263,25 +263,32 @@ input[type=text]:focus {
     height:1010px;
     width: vw;
 }
-.gearup-box {
+.gearup-box ,.trending-box{
     width: vw;
-    height: 950px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
+.trending-box{
+    height:720px;
+}
+
+.gearup-box {
+    height: 950px;
+}
+
 .gearup-img {
-    margin-top: 30px;
+    margin-top: 24px;
     width: 1327px;
-    height: 700px;
+    height: 690px;
     background-image: url(gearup.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.box-3-text {
-    margin-top: 20px;
+.box-3-text,.box-4-text {
+    margin-top: 44px;
     text-align: center; 
 }
 
@@ -300,5 +307,17 @@ button{
     border: none;
     font-weight: bold;
     padding: 10px 18px;
+    margin-top: 24px;
+}
+
+
+.box-4{
+    height:780px;
+}
+.trending-img{
+    height:460px;
+    background-image: url(trending.png);
+    width:1323px;
+    background-size: contain;
     margin-top: 24px;
 }
