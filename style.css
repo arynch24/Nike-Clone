@@ -240,7 +240,7 @@ input[type=text]:focus {
     font-size: 14px;
     border-bottom: 1px solid black;
     padding-bottom: 3px;
-    color:black;
+    color: black;
 }
 
 .card-link:hover {
@@ -268,7 +268,7 @@ input[type=text]:focus {
 .box-8 {
     width: vw;
     margin-bottom: 70px;
-    
+
 }
 
 .box-3 {
@@ -303,7 +303,7 @@ input[type=text]:focus {
     margin-top: 24px;
     width: 1327px;
     height: 690px;
-    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256246/nike/gearup1_f9ruiy.png);
+    background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256258/nike/gearup_xatjhc.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -431,7 +431,7 @@ video {
     display: flex;
     justify-content: center;
     gap: 9px;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .sp {
@@ -455,50 +455,187 @@ video {
     background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256248/nike/sp3_q1weyv.png);
 }
 
-h3,h4{
+h3,
+h4 {
     font-weight: normal;
 }
-h3{
-    margin:-100px 0px 14px 0px;
-}
-h4{
-    margin-bottom:35px;
+
+h3 {
+    margin: -100px 0px 14px 0px;
 }
 
-.box-8{
-    height:585px;
+h4 {
+    margin-bottom: 35px;
 }
-.mb-box{
-    height:545px;
-    width:vw;
-    gap:12px;
+
+.box-8 {
+    height: 585px;
+}
+
+.mb-box {
+    height: 545px;
+    width: vw;
+    gap: 12px;
     margin-top: 28px;
 }
-.mb{
-    height:545px;
-    width:436px;
+
+.mb {
+    height: 545px;
+    width: 436px;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     align-items: end;
 }
-.mb1{
+
+.mb1 {
     background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256245/nike/m1_xdtfiz.png);
 }
-.mb2{
+
+.mb2 {
     background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256245/nike/m2_zyg1lo.png);
 }
-.mb3{
+
+.mb3 {
     background-image: url(https://res.cloudinary.com/dr8ubbrmp/image/upload/v1711256246/nike/m3_yszhmk.png);
 }
 
-button.mb-button{
-    margin:0px 0px 47px 45px;
-    color:black;
+button.mb-button {
+    margin: 0px 0px 47px 45px;
+    color: black;
     background-color: white;
 }
 
 
-button.mb-button:hover{
+button.mb-button:hover {
     background-color: lightgrey;
+}
+
+.box-9 {
+    height: 192px;
+    width: vw;
+    display: flex;
+    justify-content: center;
+    margin: 125px 0px 70px;
+}
+
+.column {
+    height: 192px;
+    width: 220px;
+}
+
+a.box-9-links {
+    display: block;
+    line-height: 35px;
+    color: gray;
+}
+
+a.box-9-links:hover {
+    color: black;
+}
+
+footer {
+    height: 321.5px;
+    width: vw;
+    padding: 40px 40px 0px;
+    background-color: #111;
+
+}
+
+.footer-left-box {
+    height: 244px;
+    width: 1016px;
+    margin: 0px -6px;
+    display: flex;
+    color: white;
+}
+
+.footer-colmn {
+    width: 254px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+li {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+}
+
+a.footer-link {
+    display: block;
+    font-size: 12px;
+    color: grey;
+}
+
+a.footer-link:hover ,a.bottom-nav-links:hover{
+    color: white;
+}
+
+.bottom-nav {
+    height: 61.5px;
+    width: vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0px 6px;
+}
+
+a.bottom-nav-links {
+    color: gray;
+    padding: 8px;
+    font-size: 12px;
+    margin: 0px 4px;
+}
+
+
+i.fa-location-dot {
+    color: white;
+    font-size: 12px;
+}
+
+a.india {
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+
+}
+
+.social-bar{
+    height:37px;
+    width:332px;
+    display: flex;
+    gap:15px;
+    justify-content: right;
+    color: black;
+}
+
+.social-icon {
+    height: 30px;
+    width:30px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+}
+.fa-brands{
+    font-size: 18px;
+}
+
+.social-icon:hover{
+    background-color: white;
+}
+
+.main-footer{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
 }
