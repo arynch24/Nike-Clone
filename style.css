@@ -33,9 +33,11 @@
 
 .text-1 {
     position: relative;
+    display: flex;
     align-items: center;
+    gap:10px;
     font-size: 12px;
-    font-weight: 549;
+    color: rgba(0, 0, 0, 0.568);
 }
 
 a.nav-1-text {
@@ -83,11 +85,11 @@ a.nav-2-text {
     text-decoration: none;
     color: black;
     padding: 0px 12px;
-
 }
 
 a.nav-2-text:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid black;
+    padding-bottom: 18px;
 }
 
 .nav-2-icon {
@@ -95,9 +97,10 @@ a.nav-2-text:hover {
     align-items: center;
 }
 
+
 .searchbar {
     height: 40px;
-    width: 180px;
+    width: 160px;
     display: flex;
     padding: 0px 10px;
     align-items: center;
@@ -157,6 +160,11 @@ input[type=text]:focus {
     align-items: center;
     justify-content: center;
     color: rgba(0, 0, 0, 0.742);
+}
+
+.heart:hover,.shop:hover{
+    background-color:#F5F5F5;
+    border-radius: 30px;
 }
 
 .nav-3 {
@@ -572,7 +580,8 @@ a.footer-link {
     color: grey;
 }
 
-a.footer-link:hover ,a.bottom-nav-links:hover{
+a.footer-link:hover,
+a.bottom-nav-links:hover {
     color: white;
 }
 
@@ -605,18 +614,18 @@ a.india {
 
 }
 
-.social-bar{
-    height:37px;
-    width:332px;
+.social-bar {
+    height: 37px;
+    width: 332px;
     display: flex;
-    gap:15px;
+    gap: 15px;
     justify-content: right;
     color: black;
 }
 
 .social-icon {
     height: 30px;
-    width:30px;
+    width: 30px;
     background-color: gray;
     display: flex;
     align-items: center;
@@ -624,18 +633,19 @@ a.india {
     border-radius: 30px;
 
 }
-.fa-brands{
+
+.fa-brands {
     font-size: 18px;
 }
 
-.social-icon:hover{
+.social-icon:hover {
     background-color: white;
 }
 
-.main-footer{
+.main-footer {
     display: flex;
 }
 
-a{
+a {
     text-decoration: none;
 }
